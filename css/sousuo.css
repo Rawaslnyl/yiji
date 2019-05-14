@@ -1,0 +1,50 @@
+.wrap {
+  width: 100%;
+  background-image: url(../images/sousuo.jpg);
+  background-size: 100%;
+}
+header {
+  width: 80%;
+  margin: 0 auto;
+  height: 0.76rem;
+  display: flex;
+  border-bottom: 1px solid #333;
+}
+header a {
+  display: block;
+  color: #333;
+  line-height: 0.76rem;
+}
+header a > i {
+  display: block;
+  font-size: 0.22rem;
+}
+header a > .fang {
+  font-size: 0.32rem;
+}
+header input {
+  width: 89%;
+  outline: none;
+  padding-left: 0.2rem;
+  border: 0;
+  box-sizing: border-box;
+}
+.lost {
+  width: 100%;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding-top: 0.3rem;
+}
+.lost > i {
+  color: #c33028;
+  display: block;
+  font-size: 0.6rem;
+  text-align: center;
+  box-sizing: border-box;
+  padding-bottom: 0.1rem;
+}
+.lost span {
+  display: block;
+  font-size: 0.22rem;
+  text-align: center;
+}

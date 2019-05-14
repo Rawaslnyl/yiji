@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>设置</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/title.css" />
+    <link rel="stylesheet" type="text/css" href="./css/iconfont.css" />
+    <link rel="stylesheet" href="./css/set.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div class="title"><a href="./wode.html"><</a></div>
+        <div class="content">
+          <div class="content-inner">
+            <span>自动离线缓存</span>
+            <p><span>开</span>&nbsp;/&nbsp;关</p>
+          </div>
+          <div class="content-inner">
+            <span>WI-FI状态下自动缓存高清作品</span>
+            <p>></p>
+          </div>
+          <div class="content-inner">
+            <span>使用流量状态下提醒</span>
+            <p>开&nbsp;/&nbsp;<span>关</span></p>
+          </div>
+        </div>
+        <div class="content">
+          <div class="content-inner"><span>消息推送</span></div>
+          <div class="content-inner"><span>意见反馈</span></div>
+          <div class="content-inner"><span>当前版本</span></div>
+          <div class="content-inner"><span>关于艺集</span></div>
+        </div>
+      </header>
+      <div class="login">退出登录</div>
+    </div>
+    <script src="./js/jquery-3.3.1.js"></script>
+    <script>
+      $('.wrap').height($(window).height());
+      document.documentElement.style.fontSize =
+        document.documentElement.clientWidth / 6.4 + 'px';
+    </script>
+  </body>
+</html>

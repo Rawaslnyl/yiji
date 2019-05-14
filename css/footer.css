@@ -1,0 +1,35 @@
+footer {
+  width: 100%;
+  background-color: #000;
+  height: 0.92rem;
+  position: fixed;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 3;
+}
+.footer-inner {
+  width: 90%;
+  height: 0.92rem;
+  margin: 0 auto;
+  display: flex;
+}
+.footer-inner .footer-content {
+  width: 2rem;
+  font-size: 0.22rem;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 0.1rem;
+}
+.footer-inner .active {
+  color: #c33028;
+}
+.footer-inner .footer-content i {
+  display: block;
+  font-size: 0.42rem;
+}
+.footer-inner .footer-content span {
+  display: block;
+}

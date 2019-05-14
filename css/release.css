@@ -1,0 +1,56 @@
+.wrap {
+  background-image: url(../images/release.jpg);
+}
+section {
+  margin-bottom: 0.92rem;
+}
+section .section-inner {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #e5e5e5;
+  font-size: 0.22rem;
+  text-align: center;
+  color: #c33028;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.1rem;
+  padding: 0.5rem 0;
+}
+section .section-inner i {
+  font-size: 0.33rem;
+}
+section .xiangji {
+  width: 90%;
+  margin: 0 auto;
+  color: #c33028;
+  border-bottom: 1px solid #000;
+}
+section .xiangji .xj {
+  font-size: 0.32rem;
+  display: block;
+  margin: 0.1rem 0;
+}
+section .section-down {
+  width: 90%;
+  margin: 0 auto;
+  height: 0.7rem;
+  box-sizing: border-box;
+  display: flex;
+}
+section .section-down .section-down-content {
+  font-size: 0.22rem;
+  display: flex;
+  color: #c33028;
+  line-height: 0.7rem;
+}
+section .section-down .section-down-content:last-child {
+  margin-left: 0.2rem;
+}
+section .section-down .section-down-content i {
+  font-size: 0.32rem;
+}
+section .section-down .section-down-content span {
+  font-size: 0.16rem;
+  color: #333;
+  margin-left: 0.1rem;
+}

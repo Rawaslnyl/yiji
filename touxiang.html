@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>设置</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/title.css" />
+    <link rel="stylesheet" type="text/css" href="./css/iconfont.css" />
+    <link rel="stylesheet" href="./css/set.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div class="title"><a href="./wode.html"><</a></div>
+        <div class="content">
+          <div class="content-inner">
+            <span>我的头像</span>
+            <p><span>开</span>&nbsp;/&nbsp;关</p>
+          </div>
+          <div class="content-inner">
+            <span>背景</span>
+            <p>更换&nbsp;&nbsp;&nbsp;></p>
+          </div>
+          <div class="content-inner">
+            <span>名字</span>
+            <p>阴雨天&nbsp;&nbsp;&nbsp;></p>
+          </div>
+        </div>
+        <div class="content">
+          <div class="content-inner">
+            <span>我的二维码</span> <i class="iconfont icon-icon1"></i>
+          </div>
+          <div class="content-inner">
+            <span>我的地址</span>
+            <p>北京市&nbsp;&nbsp;&nbsp;></p>
+          </div>
+          <div class="content-inner"><span>隐私</span></div>
+        </div>
+      </header>
+    </div>
+    <script src="./js/jquery-3.3.1.js"></script>
+    <script>
+      $('.wrap').height($(window).height());
+      document.documentElement.style.fontSize =
+        document.documentElement.clientWidth / 6.4 + 'px';
+    </script>
+  </body>
+</html>

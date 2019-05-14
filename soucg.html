@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>搜索</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./css/iconfont.css" />
+    <link rel="stylesheet" href="./css/sousuo.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <a href="#"><i class="iconfont icon-fangdajing fang"></i></a>
+        <input type="text" placeholder="seargh" />
+        <a href="./index.html"><i class="iconfont icon-untitled94"></i></a>
+      </header>
+      <div class="lost">
+        <i class="iconfont icon-fabu"></i> <span>抱歉,您寻找的信息未找到</span>
+      </div>
+    </div>
+    <script src="./js/jquery-3.3.1.js"></script>
+    <script>
+      $('.wrap').height($(window).height());
+      document.documentElement.style.fontSize =
+        document.documentElement.clientWidth / 6.4 + 'px';
+    </script>
+  </body>
+</html>

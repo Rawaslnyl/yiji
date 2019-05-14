@@ -1,0 +1,20 @@
+.section {
+  width: 10.8rem;
+  overflow: hidden;
+}
+.main {
+  display: flex;
+}
+.main img {
+  display: flex;
+  width: 10.8rem;
+}
+.today {
+  position: relative;
+}
+.today a {
+  color: #131217;
+  font-size: 0.22rem;
+  position: absolute;
+  bottom: 1.9rem;
+}

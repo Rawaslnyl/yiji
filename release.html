@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>评论</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./css/iconfont.css" />
+    <link rel="stylesheet" href="./css/sousuo.css" />
+    <link rel="stylesheet" href="./css/review.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/release.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <a href="./personal.html"></a> <span>发布</span>
+        <a href="javascript:;"><i class="iconfont icon-fabu fabu"></i></a>
+      </header>
+      <textarea id="textA" placeholder="说点什么..."></textarea>
+      <section>
+        <div class="section-inner">
+          <i class="iconfont icon-tupian"></i> <span>点击添加图片</span>
+        </div>
+        <div class="xiangji"><i class="iconfont icon-xiangji xj"></i></div>
+        <div class="section-down">
+          <div class="section-down-content">
+            <i class="iconfont icon-xiangji xj"></i>
+            <span>点击获取当前位置</span>
+          </div>
+          <div class="section-down-content">
+            <i class="iconfont icon-biaoqian xj"></i>
+            <span>点击获取当前位置</span>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="footer-inner">
+          <a href="./index.html" class="footer-content ">
+            <i class="iconfont icon-diepian"></i> <span>展讯</span>
+          </a>
+          <a href="./recommend.html" class="footer-content">
+            <i class="iconfont icon-tuijianxiaoxi"></i> <span>推荐</span>
+          </a>
+          <a href="./release.html" class="footer-content active">
+            <i class="iconfont icon-fabu"></i> <span>发布</span>
+          </a>
+          <a href="./wode.html" class="footer-content">
+            <i class="iconfont icon-wode"></i> <span>个人</span>
+          </a>
+        </div>
+      </footer>
+    </div>
+    <script src="./js/jquery-3.3.1.js"></script>
+    <script>
+      $('.wrap').height($(window).height());
+      document.documentElement.style.fontSize =
+        document.documentElement.clientWidth / 6.4 + 'px';
+    </script>
+  </body>
+</html>

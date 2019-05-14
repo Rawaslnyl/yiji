@@ -1,0 +1,91 @@
+.wrap {
+  width: 100%;
+}
+.wrap header .title {
+  position: relative;
+}
+.wrap header .title .toux {
+  width: 0.8rem;
+  height: 0.8rem;
+  background-image: url(../images/huihua.jpg);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -0.4rem;
+  margin-top: -0.4rem;
+  border: 1px solid #ccc;
+}
+.wrap header .title img {
+  display: block;
+  width: 100%;
+}
+.wrap header .title a {
+  display: block;
+  position: absolute;
+  top: 0.2rem;
+  right: 0.2rem;
+  color: #fffffd;
+}
+.wrap header .title .sheji {
+  display: block;
+  font-size: 0.32rem;
+}
+.wrap header .content {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.wrap header .content > span {
+  font-size: 0.22rem;
+  display: block;
+  line-height: 0.6rem;
+}
+.wrap header .content > p {
+  position: absolute;
+  background-color: #dd4f43;
+  top: 0.06rem;
+  right: -0.32rem;
+  font-size: 0.22rem;
+  padding: 0.06rem 0.2rem 0.06rem 0.3rem;
+  box-sizing: border-box;
+  border-top-left-radius: 0.45rem;
+  border-bottom-left-radius: 0.45rem;
+  color: #fff;
+}
+.wrap header .content {
+  display: flex;
+}
+.wrap header .content .tuji {
+  display: flex;
+}
+.wrap header .content .tuji .img-content {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0.2rem;
+  box-sizing: border-box;
+}
+.wrap header .content .tuji .img-content img {
+  display: block;
+  width: 1.75rem;
+}
+.wrap header .content .tuji .img-content span {
+  font-size: 0.18rem;
+  line-height: 0.4rem;
+}
+section .section-inner .original {
+  display: flex;
+  box-sizing: border-box;
+  padding: 0.1rem;
+  background-color: #e5e5e5;
+}
+section .section-inner .original img {
+  width: 3.03rem;
+  height: 2.8rem;
+  margin-right: 0.1rem;
+}
+section .section-inner .original img:last-child {
+  margin-right: 0;
+}

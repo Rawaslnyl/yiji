@@ -1,0 +1,50 @@
+.wrap {
+  background-color: #dfe8ed;
+}
+.wrap header .title a {
+  display: block;
+  width: 0.46rem;
+  line-height: 0.46rem;
+  text-align: center;
+  color: #000;
+  font-size: 0.46rem;
+  left: 0.4rem;
+}
+.wrap header .content {
+  background-color: #f0f0f2;
+  margin-top: 0.2rem;
+}
+.wrap header .content .content-inner {
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 1px solid #000;
+  font-size: 0.2rem;
+  display: flex;
+  line-height: 0.64rem;
+}
+.wrap header .content .content-inner:last-child {
+  border-bottom: 0;
+}
+.wrap header .content .content-inner > span {
+  width: 80%;
+}
+.wrap header .content .content-inner p span {
+  color: #dd4f43;
+}
+.wrap header .content .content-inner i {
+  font-size: 0.32rem;
+}
+.login {
+  background-color: #dd4f43;
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 0.3rem;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.2rem;
+  text-align: center;
+  line-height: 0.4rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  box-sizing: border-box;
+}

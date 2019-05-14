@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>评论</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./css/iconfont.css" />
+    <link rel="stylesheet" href="./css/sousuo.css" />
+    <link rel="stylesheet" href="./css/review.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <a href="./tui-personal.html"><</a> <span>评论</span>
+        <a href="javascript:;"><i class="iconfont icon-fabu fabu"></i></a>
+      </header>
+      <textarea id="textA" placeholder="说点什么..."></textarea>
+    </div>
+    <script src="./js/jquery-3.3.1.js"></script>
+    <script>
+      $('.wrap').height($(window).height());
+      document.documentElement.style.fontSize =
+        document.documentElement.clientWidth / 6.4 + 'px';
+    </script>
+  </body>
+</html>
